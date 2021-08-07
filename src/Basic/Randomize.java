@@ -26,7 +26,6 @@ public class Randomize {
     }
     
     public static void main(String[] args) {
-        
         Random rand = new Random();
         
         int rand_int1 = rand.nextInt(1000);
@@ -35,6 +34,4 @@ public class Randomize {
         double rand_dub1 = rand.nextDouble();
         System.out.println("Random Doubles: "+rand_dub1);
     }
-    
-    
 }
